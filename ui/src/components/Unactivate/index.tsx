@@ -109,16 +109,16 @@ const Index: React.FC<IProps> = ({ visible = false }) => {
       ) : (
         <>
           <p>
-            <Trans
-              i18nKey="inactive.first"
-              values={{ mail: e_mail }}
-              components={{ bold: <strong /> }}
-            />
+            {/*<Trans*/}
+            {/*  i18nKey="inactive.first"*/}
+            {/*  values={{ mail: e_mail }}*/}
+            {/*  components={{ bold: <strong /> }}*/}
+            {/*/>*/}
           </p>
           <p>{t('info')}</p>
-          <Button variant="link" onClick={onSentEmail}>
-            {t('btn_name')}
-          </Button>
+          {/*<Button variant="link" onClick={onSentEmail}>*/}
+          {/*  {t('btn_name')}*/}
+          {/*</Button>*/}
           <Link to="/users/change-email" replace className="btn btn-link ms-2">
             {t('change_btn_name')}
           </Link>
